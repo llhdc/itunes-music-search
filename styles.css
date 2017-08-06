@@ -3,6 +3,14 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-h1 {
+header {
+  text-align: center;
   text-transform: uppercase;
+}
+
+.player {
+  text-align: center;
+}
+audio {
+  width: 85%;
 }
