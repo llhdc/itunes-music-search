@@ -4,22 +4,28 @@
   <title>iTunes Music Search</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script defer src="main.js" charset="utf-8"></script>
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <header>
       <h1>Really Awesome Music Site</h1>
-    </header>
-    <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
-    </section>
-    <section class="search">
-      <form class="search-form">
+      <section class="player">
+        <audio id="audio" class="music-player" controls="controls" src=""></audio>
+      </section>
 
-      </form>
-    </section>
-    <section class="results"></section>
-  </div>
-  <script src="main.js"></script>
+      <section class="search">
+        <form class="search-form">
+          <input id="search" type="text" name="search" placeholder="Search for Artist">
+          <button type="button" name="button">Search</button>
+        </form>
+      </section>
+    </header>
+
+    <main class="results">
+
+    </main>
+
+  </main>
 </body>
 </html>
